@@ -13,8 +13,6 @@ public class RangeSummarizerTest {
 
     private final NumberRangeSummarizer summarizer = new RangeSummarizer();
 
-    // ---- The example from the brief ----
-
     @Test
     public void summarizesTheExampleFromTheBrief() {
         Collection<Integer> numbers = summarizer.collect("1,3,6,7,8,12,13,14,15,21,22,23,24,31");
